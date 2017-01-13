@@ -1,8 +1,5 @@
 # Creating an Urbanization Index
 
-
-
-
 In animal behaviour, when scientists want to compare urban vs. rural sites they generally use categories. However, while some sites may be clearly urban and some sites may be clearly rural, there are many sites that could be considered intermediate. My work on [chickadee singing behaviour](http://steffi.ca/) involved a lot of such sites, so I developed an "Urbanization Index" to remove some of the subjectivity in assigning sites to one category or another.
 
 This is a set of instructions for how to create an urbanization index for any sites you might be interested in. I warn you, it's a bit involved, and while I've automated the process where possible, there are still a couple steps that require human intervention. Also, GIMP scripts are a nightmare... ugh.
