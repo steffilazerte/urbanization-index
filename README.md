@@ -149,7 +149,7 @@ We're going to be using a custom-made function called `write.kml()`
 
 
 ```r
-write.kml <- function(ID, data, output) {
+write.kml <- function(ID, data, output, alt) {
     write(x = paste0("<?xml version=\'1.0\' encoding=\'UTF-8\'?>
 <kml xmlns=\'http://earth.google.com/kml/2.2\'>
 <Document>
@@ -210,7 +210,7 @@ Don't pan or move the camera.
 
 Save the image to the `\maps\` folder as  `ID.jpg` (use the waypoint ID for `ID`) by going to File > Save > Save image, or Ctrl-Alt-S
 
-![Google Earth Screenshot](googleEarth.jpg "Google Earth Screenshot")
+![Google Earth Screenshot](./media/googleEarth.jpg "Google Earth Screenshot")
 
 
 **Troubleshooting:**
@@ -263,7 +263,7 @@ At the bottom of the Filters menu you should now have the options of
 
 Open a map picture you saved from GoogleEarth and select `Filters > Habitat 1 - Setup`. You'll see that the territory circle is now outlined by a layer.
 
-![Gimp - Habitat 1 Setup](gimp1.png "Gimp - Habitat 1 Setup")
+![Gimp - Habitat 1 Setup](./media/gimp1.png "Gimp - Habitat 1 Setup")
 
 **Side Note:** 
 
@@ -291,7 +291,7 @@ Once you've painted your map, select Filters > Habitat 2 - Save.
 - The coloured in selection will be saved to `./gimp/IDNAME_b.xcf`
 - The pixel counts of each colour will be saved to `./data/IDNAME.txt`. 
 
-![Gimp - Habitat 2 Save](gimp2.png "Gimp - Habitat 2 Save")
+![Gimp - Habitat 2 Save](./media/gimp2.png "Gimp - Habitat 2 Save")
 
 **Side Note:** 
 
